@@ -8,7 +8,7 @@ function countDown(num){
 function writeCards(arr){
   let returnArr = []
   for (const element of arr){
-    returnArr.push(`Thank you ${element}`)
+    returnArr.push(`Thank you, ${element}, for the wonderful surprise gift!`)
   }
   return returnArr
 }
