@@ -1,1 +1,14 @@
-// Code your solutions in this file
+function countDown(num){
+  while (num > -1){
+    console.log(num);
+    num = num - 1;
+  }
+}
+
+function writeCards(arr){
+  let returnArr = []
+  for (const element of arr){
+    returnArr.push(`Thank you ${element}`)
+  }
+  return returnArr
+}
