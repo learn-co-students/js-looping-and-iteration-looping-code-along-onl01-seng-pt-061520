@@ -3,15 +3,16 @@
 const names = [ 'Lisa', 'Kaitin', 'Jan'];
 const events = ['surprise'];
 function writeCards(names, events){
+    let cards = []
     for (let i=0; i < names.length; i++){
-        let cards = []
+        
         cards.push(`Thank you, ${names[i]}, for the wonderful ${events} gift!`);
     }
-    //return cards;
+    return cards;
 }
 
 writeCards(names,events);
-return cards;
+
 
 let down = 10;
 function countDown(down){
