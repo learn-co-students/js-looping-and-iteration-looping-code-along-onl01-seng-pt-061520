@@ -10,3 +10,10 @@ function writeCards(names, events){
 }
 
 writeCards(names,events);
+
+let down = 10;
+function countDown(down){
+    while(down >= 0){
+        console.log(down--);
+    }
+};
