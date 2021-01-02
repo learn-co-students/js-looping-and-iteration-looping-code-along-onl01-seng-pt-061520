@@ -7,10 +7,11 @@ function writeCards(names, events){
         let cards = []
         cards.push(`Thank you, ${names[i]}, for the wonderful ${events} gift!`);
     }
-    //return names;
+    //return cards;
 }
 
 writeCards(names,events);
+return cards;
 
 let down = 10;
 function countDown(down){
